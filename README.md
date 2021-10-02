@@ -11,6 +11,8 @@ The challenge is of making a simple order summary card.
 Users should be able to:
 
 - See hover states for interactive elements
+### Screenshot
+
 
 ## My process
 
