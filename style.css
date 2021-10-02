@@ -1,0 +1,146 @@
+/* css mae font nhi import krny kabhi bhe 
+html mae link import krny */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* yeh html ko nhi kuch krna  */
+html {
+  font-size: 62.5%;
+}
+/* font-size dae na to body mae do */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+/* body kae andr height full nhi dae na behter kuch situations hoti jidhr dety pr 
+idhr nhi height es mae sae remove kr do aur body ko height do 100vh */
+.container {
+  /* height: 99vh; */
+  background-image: url("./img/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 1rem;
+}
+/* es mae margin 3rem auto dia yeh center mae kia yeh  sahi
+pr 3rem sae kam kharab ho rha uper space aa rhi, es ko 0 kr do
+and padding-top dae do .container ko, height remove nothing happens now*/
+.inner-container {
+  background-color: #f4f4f4;
+  /* margin: 3rem auto; */
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.308);
+}
+.container-img img {
+  /* margin: 5rem auto; */
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+/* uper changing ki to button kae neechy ab koi paading nhi es leye top and
+bottom both padding dae ni us kae padding-block use kr skty */
+.container-text {
+  padding-block: 2rem;
+}
+/* yeh container-text kae inside jo bhe p tag  ho ga chae woh p tag kisi aur div kae
+inside hee q na ho us pr yeh css apply ho jae gi
+to behter hai ka jis p tag ko css dae ni us ko class dein aur class use krien 
+and 1rem = 16px*/
+.container-text p {
+  font-size: 16px;
+}
+.container-text .summary {
+  padding: 2rem 2rem 0 3rem;
+}
+/* .container-text .music-icon{
+    align-items: left;
+    
+} */
+/* es ki zarorat nhi ab */
+.floating {
+}
+/* jis tag ko display flex dein gein us kae inside elements ko row bana  dae ga minimum width &
+height kr dae ga es kae bad justify-content inside elements ko horizontally center kry ga
+and align-items elements ko vertically center kry ga  */
+.icons {
+  margin: 1.5rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+.icons::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.floating .plain-text {
+  text-align: left;
+  width: 25%;
+}
+.floating .plain-text {
+  font-size: 1rem;
+}
+
+.floating .icon-music {
+  text-align: center;
+  width: 25%;
+}
+.floating .end-link {
+  width: 50%;
+}
+.floating .end-link a {
+  display: block;
+  padding: auto;
+  font-size: 30px;
+  /* margin-left: 5rem; */
+}
+.btn {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 7px;
+  font-weight: 700;
+  width: 390px;
+  height: 37px;
+  border: none;
+  
+}
+.main-btn {
+  color: whitesmoke;
+
+  background-color: rgb(26, 26, 179);
+  margin-bottom: 1rem;
+}
+.floating .end-link a{
+  font-size: 30px;
+}
+
+.main-btn:hover{
+  background-color: rgba(26, 26, 179, 0.685);
+  cursor:pointer;
+
+}
+a:hover{
+  text-decoration: none;
+  cursor:pointer;
+}
+@media only screen and (max-width: 375px) {
+   .icons{
+     width: fit-content;
+   }
+}
