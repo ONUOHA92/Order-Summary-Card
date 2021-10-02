@@ -12,29 +12,19 @@ Users should be able to:
 
 - See hover states for interactive elements
 ### Screenshot
-
-
-## My process
+![Screenshot 2021-10-03 at 00-58-08 SummaryCard](https://user-images.githubusercontent.com/58159194/135730419-f46814da-26a8-438f-a71e-637b188c4b95.png)
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-
 ### What I learned
 This challenge made me learn about css positioning elements and flex box.
-
 ### Useful resources
-
 - https://www.youtube.com/playlist?list=PLwgFb6VsUj_mtXvKDupqdWB2JBiek8YPB- This course helped me for learning and practicing flex box reason. I really liked this  and will use it going forward.
 
-
-
 ## Author
-
 
 - Frontend Mentor - [@nidaismail](https://www.frontendmentor.io/profile/nidaismail)
 - Twitter - [@NidaIsmail6](https://www.twitter.com/@NidaIsmail6)
